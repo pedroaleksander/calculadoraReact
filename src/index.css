@@ -1,0 +1,52 @@
+body {
+  background-image: url(red.gif);
+  background-size: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+h3{
+  color: rgb(224, 224, 224);
+}
+.samba{
+  text-align: center;
+  border-style: double;
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.26)
+}
+
+input{
+  border-radius: 10px;
+  text-align: center;
+  font-size: medium;
+  width: 130px;
+  height: 30px;
+  border-style: dashed;
+  border-color: rgb(134, 21, 0);
+  color: #6e110e;
+}
+
+button{
+  background-color: rgb(146, 15, 5);
+  width: 80px;
+  height: 25px;
+  border-radius: 30px;
+  transition: 0.5s;
+  border-style: double;
+  border-color: rgb(211, 37, 14);
+  color: white;
+}
+button:hover{
+  background-color: rgb(37, 1, 1);
+  border-color: rgb(255, 86, 86);
+}
+#resultado{
+  color: #660202;
+  font-size: 30px;
+}
